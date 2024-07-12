@@ -26,4 +26,4 @@ const search = function(catName) {
 
 // search('sib')
 
-search(process.argv[2]);
+module.exports = search;
